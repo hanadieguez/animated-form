@@ -1,0 +1,145 @@
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/background.jpg");
+  background-position: left bottom;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  height: calc(100vh);
+  align-content: center;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+form {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 50px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+.login {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.box-input {
+  margin: 10px 0;
+  position: relative;
+}
+
+.box-input .icon {
+  padding-right: 5px;
+  font-size: 1.6rem;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.box-input input {
+  border: none;
+  background: none;
+  border-bottom: 2px solid #ffffff;
+  width: 100%;
+  padding: 12px 0;
+}
+
+input:focus {
+  outline: transparent;
+}
+
+input,
+label {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -70px;
+}
+
+.box-input label {
+  position: relative;
+  top: -35px;
+  transition: 0.5s;
+}
+
+.box-checkbox {
+  text-align: center;
+}
+
+.btn-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-entrar {
+  cursor: pointer;
+  color: #000000;
+  padding: 12px 30px;
+  width: 280px;
+  font-size: 1.3rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: #ffffff;
+  border-radius: 50px;
+}
+
+.box-register {
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+.box-register span {
+  font-weight: 600;
+}
+
+.box-register a {
+  color: #ffffff;
+}
+
+.network {
+  color: #ffffff;
+  position: absolute;
+  display: grid;
+  justify-content: center;
+  bottom: 25px;
+  width: 100vw;
+  gap: 20px;
+}
+
+.network img {
+  width: 2rem;
+  transition: 0.25s;
+}
+
+.network img:hover {
+  transform: scale(1.2);
+}
+
+.network ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
