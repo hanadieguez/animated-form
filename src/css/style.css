@@ -65,6 +65,11 @@ input:focus {
   outline: transparent;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s, color 600000s;
+}
+
 input,
 label {
   color: #ffffff;
